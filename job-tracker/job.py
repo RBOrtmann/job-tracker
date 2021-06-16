@@ -21,7 +21,5 @@ class Job:
             "Status": ""
         }
 
-    # TODO: str implementation, concrete definition of variables (e.g. company, title, website, etc.)
-
     def __str__(self) -> str:
         return str(self.columns)
